@@ -1,3 +1,2 @@
-from pyContext import Context
-from pyState import State
+from pyContext import Context, State
 from state_methods import *
