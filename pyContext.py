@@ -2,7 +2,7 @@
 State changes are handled by the transition_to method.
 All other methods get piped into the state class's matching methods"""
 
-
+from abc import ABC,abstractmethod
 
 class Context:
     _state = None
